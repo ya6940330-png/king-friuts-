@@ -12,6 +12,9 @@ button{
     font-size: 30px;
     border-color: #FF4D4D;
 }
+h1 {
+    color:white;
+}
 @media (min-width:769px){
 body{
     margin-left: 350px;
