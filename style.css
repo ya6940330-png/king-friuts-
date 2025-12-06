@@ -1,0 +1,762 @@
+@media (max-width:425px){
+body{
+    background-color: #FF4D4D;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header ul li {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+}
+.ssss{
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: larger;
+}
+.header ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: 900;
+
+}
+.header ul li a:hover{
+    color:blueviolet;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.content p{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+.content button{
+    background-color: darkorange;
+    color: white;
+    border-radius: 6px;
+    border-color: darkorange;
+    cursor: pointer;
+    font-size: 20px;
+}
+.contentt h2{
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-size: 30px;
+}
+.contentt h4{
+    color: white;
+    letter-spacing: 1px;
+    font-size:15px;
+}
+.contentt img{
+    float: right;
+}
+.contentt button{
+    background-color: darkorange;
+    color: white;
+    border-radius: 7px;
+    font-size: 22px;
+    border-color: darkorange;
+    cursor: pointer;
+    
+}
+.contenttt h2{
+    color:white;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+.contenttt h4{
+    color: white;
+    letter-spacing: 1px;
+    font-size: medium;
+    margin-top: 30px;
+}
+.contenttt button{
+    background-color: darkorange;
+    color: white;
+    border-radius: 7px;
+    font-size: 22px;
+    border-color: darkorange;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.contenttt img{
+    height: 150px;
+    width:90px;
+    border-radius: 10px;
+    float: right;
+    margin-right: 15px;
+}
+.image{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.image img{
+    height: 90px;
+    width: 70px;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.image p{
+    color: white;
+    font-weight: 900;
+}
+.img h2{
+    color: white;
+    font-weight: 900;
+}
+.img img{
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+}
+.FOOTER{
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    font-weight: 900;
+}
+}
+@media (max-width:523px){
+    body{
+    background-color: #FF4D4D;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header ul li {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.ssss{
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 19px;
+}
+.header ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: 900;
+    padding-right: 5px;
+
+}
+.header ul li a:hover{
+    color:blueviolet;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.content p{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+.content button{
+    background-color: darkorange;
+    color: white;
+    border-radius: 6px;
+    border-color: darkorange;
+    cursor: pointer;
+    font-size: 20px;
+}
+.contentt h2{
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-size: 30px;
+}
+.contentt h4{
+    color: white;
+    letter-spacing: 1px;
+    font-size:15px;
+}
+.contentt button{
+    background-color: darkorange;
+    color: white;
+    border-radius: 7px;
+    padding: 9px;
+    font-size: 22px;
+    border-color: darkorange;
+    cursor: pointer;
+    
+}
+.contentt img{
+    float: right;
+    border-radius: 10px;
+}
+.contenttt h2{
+    color:white;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+.contenttt h4{
+    color: white;
+    letter-spacing: 1px;
+    font-size: medium;
+}
+.contenttt button{
+    background-color: darkorange;
+    color: white;
+    border-radius: 7px;
+    padding: 9px;
+    font-size: 22px;
+    border-color: darkorange;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.contenttt img{
+    height: 150px;
+    width:100px;
+    border-radius: 10px;
+    float: right;
+}
+.image{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.image img{
+    height: 90px;
+    width: 70px;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.image p{
+    color: white;
+    font-weight: 900;
+}
+.img h2{
+    color: white;
+    font-weight: 900;
+}
+.img img{
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.FOOTER {
+    color: white;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+}
+@media (max-width:768px){
+    body{
+    background-color: #FF4D4D;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header ul li {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.ssss{
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 19px;
+}
+.header ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: 900;
+    padding-right: 5px;
+
+}
+.header ul li a:hover{
+    color:blueviolet;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.content p{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+.content button{
+    background-color: darkorange;
+    color: white;
+    border-radius: 6px;
+    border-color: darkorange;
+    cursor: pointer;
+    font-size: 20px;
+}
+.contentt h2{
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-size: 30px;
+}
+.contentt h4{
+    color: white;
+    letter-spacing: 1px;
+    font-size:15px;
+}
+.contentt button{
+    background-color: darkorange;
+    color: white;
+    border-radius: 7px;
+    padding: 9px;
+    font-size: 22px;
+    border-color: darkorange;
+    cursor: pointer;
+    
+}
+.contentt img{
+    float: right;
+    border-radius: 10px;
+}
+.contenttt h2{
+    color:white;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+.contenttt h4{
+    color: white;
+    letter-spacing: 1px;
+    font-size: medium;
+}
+.contenttt button{
+    background-color: darkorange;
+    color: white;
+    border-radius: 7px;
+    padding: 9px;
+    font-size: 22px;
+    border-color: darkorange;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.contenttt img{
+    height: 150px;
+    width:100px;
+    border-radius: 10px;
+    float: right;
+}
+.image{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.image img{
+    height: 90px;
+    width: 70px;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.image p{
+    color: white;
+    font-weight: 900;
+}
+.img h2{
+    color: white;
+    font-weight: 900;
+}
+.img img{
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.FOOTER {
+    color: white;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+}
+@media (min-width:1024px){
+body{
+    background-color: #FF4D4D;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header ul{
+    margin-left: 500px;
+}
+.header ul li {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.ssss{
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 30px;
+}
+.header ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: 900;
+    font-size: 20px;
+    
+
+}
+.header ul li a:hover{
+    color:black;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.content p{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+}
+.content button{
+    background-color: darkorange;
+    color: white;
+    border-radius: 6px;
+    border-color: darkorange;
+    cursor: pointer;
+    font-size: 20px;
+}
+.contentt h2{
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-size: 30px;
+}
+.contentt{
+    margin-bottom: 50px;
+}
+.contentt img{
+    float: right;
+    width: 350px;
+    height: 220px;
+    border-radius: 20px;
+}
+.contentt h4{
+    color: white;
+    letter-spacing: 1px;
+    font-size:15px;
+}
+.contentt button{
+    background-color: darkorange;
+    color: white;
+    border-radius: 6px;
+    border-color: darkorange;
+    cursor: pointer;
+    font-size: 20px;
+}
+.contenttt h2{
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+.contenttt{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.contenttt h4{
+    color: white;
+    letter-spacing: 1px;
+    font-size: medium;
+}
+
+.contenttt button{
+    background-color: darkorange;
+    color: white;
+    font-weight: 800;
+    border-radius: 6px;
+    border-color: darkorange;
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.contenttt img{
+    height: 220px;
+    width:350px;
+    border-radius: 10px;
+    float: right;
+    align-items: center;
+    
+}
+.image{
+    display: inline-block;
+    text-align: center;
+    flex-direction: row;
+    gap: 30px;
+    padding-right: 165px;
+    padding-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.image img{
+    height: 250px;
+    width: 185px;
+    display: block;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+.image p{
+    color: white;
+    font-weight: 900;
+}
+.img{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.img h2{
+    color: white;
+    font-weight: 900;
+}
+.img img{
+    width: 350px;
+    height: 200px;
+}
+.FOOTER{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-top: 25px;
+}
+.FOOTER img{
+    width:200px ;
+    height: 200px;
+}
+}
+@media (min-width:431px){
+body{
+    background-color: #FF4D4D;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header ul li {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.ssss{
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: larger;
+}
+.header ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: 900;
+
+}
+.header ul li a:hover{
+    color:blueviolet;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.content p{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+.content button{
+    background-color: darkorange;
+    color: white;
+    border-radius: 6px;
+    border-color: darkorange;
+    cursor: pointer;
+    font-size: 20px;
+}
+.contentt h2{
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-size: 30px;
+}
+.contentt h4{
+    color: white;
+    letter-spacing: 1px;
+    font-size:15px;
+}
+.contentt button{
+    background-color: darkorange;
+    color: white;
+    border-radius: 7px;
+    padding: 9px;
+    font-size: 22px;
+    border-color: darkorange;
+    cursor: pointer;
+    
+}
+.contentt img{
+    float: right;
+    width: 170px;
+    height: 158px;
+    border-radius: 30px;
+}
+.contenttt h2{
+    color:white;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+.contenttt h4{
+    color: white;
+    letter-spacing: 1px;
+    font-size: medium;
+}
+.contenttt button{
+    background-color: darkorange;
+    color: white;
+    border-radius: 7px;
+    padding: 9px;
+    font-size: 22px;
+    border-color: darkorange;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.contenttt img{
+    height: 240px;
+    width:120px;
+    border-radius: 10px;
+    float: right;
+}
+.image{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.image img{
+    height: 90px;
+    width: 70px;
+    display: flex;
+    margin-bottom: 10px;
+    float:right;
+    border-radius: 10px;
+
+}
+.image p{
+    color: white;
+    font-weight: 900;
+}
+.img h2{
+    color: white;
+    font-weight: 900;
+}
+.img img{
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.FOOTER{
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    font-weight: 900;
+}
+
+hr{
+    width: 100%;
+    height: 100%;
+}
+}
